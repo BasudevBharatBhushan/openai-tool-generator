@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Tool Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <h2>Tool Builder</h2>
+            <div id="tools-container">
+                <!-- Dynamic tool forms will be added here -->
+            </div>
+            <button id="add-tool-btn" class="btn-primary">Add New Tool</button>
+            <button id="clear-all-btn" class="btn-secondary">Clear All</button>
+        </div>
+        
+        <div class="right-panel">
+            <h2>Generated JSON</h2>
+            <div class="json-controls">
+                <button id="copy-json-btn" class="btn-copy">Copy JSON</button>
+                <button id="download-json-btn" class="btn-download">Download</button>
+            </div>
+            <pre id="json-output" class="json-display"></pre>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
